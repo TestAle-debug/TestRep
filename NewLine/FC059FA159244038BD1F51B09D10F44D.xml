@@ -115,7 +115,7 @@
       <DocumentGroupIdentity>
         <Id>F77B00B4643EDF3551CD52BFE3A05A3E</Id>
         <AutomaticallyPopulate>true</AutomaticallyPopulate>
-        <Version>1</Version>
+        <Version>-1</Version>
         <Name>EG_NewLine</Name>
       </DocumentGroupIdentity>
     </ExtractionGroups>
