@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>FC059FA159244038BD1F51B09D10F44D</Id>
+    <Name>NewLine</Name>
+    <Version>1</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedDateTime>2024-03-12T12:42:05.883</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>DDD3FECB73954480847F38992C638485</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>tsadmin</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>F8A4E2A8B46A01AA7470D52570BBDF41</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>7</Version>
+        <Name>Process_NewLine</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>CombineAssociatedMaps</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+      <ProcessDataModels />
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules />
+    <Assets />
+    <Forms>
+      <FormIdentity>
+        <Id>7D79BA8775814DE7BF3C07AA719E2ED1</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Process_NewLine_Scan</Name>
+        <Version>1</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>F77B00B4643EDF3551CD52BFE3A05A3E</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>EG_NewLine</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>AEC32BB3D786D9051A490F88F28C6707</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>CG_NewLine</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters />
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Default Category</Name>
+        <Description />
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <BarcodePatchcodeProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>true</ShowProcessAssociations>
+    <ShowFormAssociations>true</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+      <AppType>QuickWorkflow</AppType>
+    </QuickApp>
+    <GitFolderName />
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>F8A4E2A8B46A01AA7470D52570BBDF41</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AEC32BB3D786D9051A490F88F28C6707</Id>
+            <ItemType>16</ItemType>
+            <Name>CG_NewLine</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F77B00B4643EDF3551CD52BFE3A05A3E</Id>
+            <ItemType>18</ItemType>
+            <Name>EG_NewLine</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>F8A4E2A8B46A01AA7470D52570BBDF41</Id>
+            <ItemType>0</ItemType>
+            <Name>Process_NewLine</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>AEC32BB3D786D9051A490F88F28C6707</Id>
+        <Name />
+        <ItemType>16</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>F77B00B4643EDF3551CD52BFE3A05A3E</Id>
+        <Name />
+        <ItemType>18</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Name />
+        <ItemType>35</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <Name />
+        <ItemType>28</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>7D79BA8775814DE7BF3C07AA719E2ED1</Id>
+        <Name />
+        <ItemType>6</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7D79BA8775814DE7BF3C07AA719E2ED1</Id>
+            <ItemType>6</ItemType>
+            <Name>Process_NewLine_Scan</Name>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <Name />
+        <ItemType>36</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+        <Name />
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences />
+    <CurrencyCodes />
+    <QuickAppType>QuickWorkflow</QuickAppType>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+  <SpaPackageType>Default</SpaPackageType>
+</SpaPackage>
