@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>4172472C03A3474BBD11B75D4CE3EFC7</Id>
+    <Name>New test</Name>
+    <Version>1</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedDateTime>2023-12-06T11:41:23.04</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>CCAC9595489846A0827410B4BAB0C4F7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Administrator</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>18213FE4A3EBCCB9BB10AACCAE12CB83</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>3</Version>
+        <Name>ARBE - Duration Overrun Exception</Name>
+      </ProcessIdentity>
+      <ProcessIdentity>
+        <Id>EFF81B2111F74D97BC5F9869899231A8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>Sample MetaData Process</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>None</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+      <ProcessDataModels />
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>CB0F3BE4E8244290B536CB44C8DF8D1D</Id>
+        <Name>BR_Extraction_FormatPlanNumbers</Name>
+        <Version>3</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>E0BE19D41D154C0282E52F82EE4BFA46</Id>
+        <Name>BR_Cleanup_PlanNumbers</Name>
+        <Version>4</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+    </BusinessRules>
+    <Assets />
+    <Forms />
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <ProcessExportOptions>
+        <ExportResources>false</ExportResources>
+        <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+        <ExportResourcesExtensions>false</ExportResourcesExtensions>
+        <ExportCategories>false</ExportCategories>
+        <WithCategoryParentage>false</WithCategoryParentage>
+        <GeneralizedExport>false</GeneralizedExport>
+        <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+        <ExportCaseFragments>false</ExportCaseFragments>
+        <ExportTemplateSkins>false</ExportTemplateSkins>
+        <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+        <ExportGlobalDataModels>false</ExportGlobalDataModels>
+        <ExportProcessDataModels>false</ExportProcessDataModels>
+        <ExportType>CombineAssociatedMaps</ExportType>
+        <Version>0</Version>
+        <ExportServerVariables>true</ExportServerVariables>
+        <XmlExpressionVariables />
+        <PreloadScript>1</PreloadScript>
+        <SleepDuration>0</SleepDuration>
+        <CategoryIds />
+        <ProcessDocument>false</ProcessDocument>
+        <ProcessViewer>false</ProcessViewer>
+        <DotNetActivityType>0</DotNetActivityType>
+        <Projects />
+        <AllProcessVariables />
+        <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+        <SiteDetailsRequired>false</SiteDetailsRequired>
+        <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+        <DocumentTemplates />
+        <Assets />
+        <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+        <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+        <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+        <ProcessDataModels />
+        <IsSpaExport>false</IsSpaExport>
+        <ProcessType>BusinessProcess</ProcessType>
+        <ProtectedItems />
+        <ExportPageRenditions>false</ExportPageRenditions>
+        <ExportReportingTags>false</ExportReportingTags>
+        <ExportTestPlans>false</ExportTestPlans>
+        <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+        <IsGitExport>false</IsGitExport>
+        <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+      </ProcessExportOptions>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>1965E8B8B7051C2A9448863380C8F63F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>MDC_Demo</Name>
+      </DocumentGroupIdentity>
+      <DocumentGroupIdentity>
+        <Id>19704C492C4028F44CB2B089FEE72DE6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>1</Version>
+        <Name>MDC_DEMO_EMAIL</Name>
+      </DocumentGroupIdentity>
+      <DocumentGroupIdentity>
+        <Id>4EF71FD87027311472BB36738A334668</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>4</Version>
+        <Name>MDC_DEMO_RENCOM_POC</Name>
+      </DocumentGroupIdentity>
+      <DocumentGroupIdentity>
+        <Id>53F9312F36FEC43E55FE029897034E45</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>17</Version>
+        <Name>MDC_DEMO_ILET_POC</Name>
+      </DocumentGroupIdentity>
+      <DocumentGroupIdentity>
+        <Id>CA904E28A6F0C319883C03ADAC5A93A8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>2</Version>
+        <Name>MDC_DEMO_ID_POC</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>3CBD998E960C26D3A1ECB5589378E2F4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>40</Version>
+        <Name>MDC_Demo</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters>
+      <FormatterIdentity>
+        <Id>7E2D553FF440BF3A5B9CB191F613B0F4</Id>
+        <Name>PlanNumber</Name>
+      </FormatterIdentity>
+    </Formatters>
+    <FieldValidators />
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>2E9FE0E7A27F461B81EC871E1BFF919C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>MDC Automation</Name>
+        <Description />
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>B2103651C98143E3B1C33EB59C35C325</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>GTI KTA</Name>
+        <Description />
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles>
+      <ScanVrsProfileIdentity>
+        <Id>C525FA863EB74348961543C740ED00A0</Id>
+        <Name>Default</Name>
+      </ScanVrsProfileIdentity>
+    </ScanVrsProfiles>
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <BarcodePatchcodeProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>false</ShowProcessAssociations>
+    <ShowFormAssociations>false</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections>
+      <ImportConnectionIdentity>
+        <Id>446245EB26907DD0237BF77C2DC20090</Id>
+        <Name>test</Name>
+      </ImportConnectionIdentity>
+    </ImportConnections>
+    <ImportSources>
+      <ImportSourceSummary>
+        <Identity>
+          <Id>17F176D64B8A342D411C82AEE00A12F4</Id>
+          <Name>ewstest</Name>
+        </Identity>
+        <ImportConnectionIdentity />
+      </ImportSourceSummary>
+      <ImportSourceSummary>
+        <Identity>
+          <Id>1AA4751DA667C3DDA6C768BF0FB6BFB4</Id>
+          <Name>test</Name>
+        </Identity>
+        <ImportConnectionIdentity />
+      </ImportSourceSummary>
+    </ImportSources>
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+      <AppType>QuickWorkflow</AppType>
+    </QuickApp>
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>446245EB26907DD0237BF77C2DC20090</Id>
+        <Name />
+        <ItemType>42</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>CB0F3BE4E8244290B536CB44C8DF8D1D</Id>
+            <ItemType>1</ItemType>
+            <Name>BR_Extraction_FormatPlanNumbers</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E0BE19D41D154C0282E52F82EE4BFA46</Id>
+            <ItemType>1</ItemType>
+            <Name>BR_Cleanup_PlanNumbers</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>B2103651C98143E3B1C33EB59C35C325</Id>
+            <ItemType>28</ItemType>
+            <Name>GTI KTA</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2E9FE0E7A27F461B81EC871E1BFF919C</Id>
+            <ItemType>28</ItemType>
+            <Name>MDC Automation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3CBD998E960C26D3A1ECB5589378E2F4</Id>
+            <ItemType>16</ItemType>
+            <Name>MDC_Demo</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FC4A7E347D984994B76C942BFFCDF07B</Id>
+            <ItemType>47</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1965E8B8B7051C2A9448863380C8F63F</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_Demo</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>19704C492C4028F44CB2B089FEE72DE6</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_EMAIL</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>4EF71FD87027311472BB36738A334668</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_RENCOM_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>53F9312F36FEC43E55FE029897034E45</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_ILET_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>CA904E28A6F0C319883C03ADAC5A93A8</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_ID_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7E2D553FF440BF3A5B9CB191F613B0F4</Id>
+            <ItemType>20</ItemType>
+            <Name>PlanNumber</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EFF81B2111F74D97BC5F9869899231A8</Id>
+            <ItemType>0</ItemType>
+            <Name>Sample MetaData Process</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>18213FE4A3EBCCB9BB10AACCAE12CB83</Id>
+            <ItemType>0</ItemType>
+            <Name>ARBE - Duration Overrun Exception</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C525FA863EB74348961543C740ED00A0</Id>
+            <ItemType>31</ItemType>
+            <Name>Default</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id />
+            <ItemType>49</ItemType>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>17F176D64B8A342D411C82AEE00A12F4</Id>
+        <Name />
+        <ItemType>43</ItemType>
+        <AssociatedItems />
+      </PackageItemAssociation>
+      <PackageItemAssociation>
+        <Id>1AA4751DA667C3DDA6C768BF0FB6BFB4</Id>
+        <Name />
+        <ItemType>43</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>CB0F3BE4E8244290B536CB44C8DF8D1D</Id>
+            <ItemType>1</ItemType>
+            <Name>BR_Extraction_FormatPlanNumbers</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E0BE19D41D154C0282E52F82EE4BFA46</Id>
+            <ItemType>1</ItemType>
+            <Name>BR_Cleanup_PlanNumbers</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>B2103651C98143E3B1C33EB59C35C325</Id>
+            <ItemType>28</ItemType>
+            <Name>GTI KTA</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2E9FE0E7A27F461B81EC871E1BFF919C</Id>
+            <ItemType>28</ItemType>
+            <Name>MDC Automation</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3CBD998E960C26D3A1ECB5589378E2F4</Id>
+            <ItemType>16</ItemType>
+            <Name>MDC_Demo</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FC4A7E347D984994B76C942BFFCDF07B</Id>
+            <ItemType>47</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1965E8B8B7051C2A9448863380C8F63F</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_Demo</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>19704C492C4028F44CB2B089FEE72DE6</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_EMAIL</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>4EF71FD87027311472BB36738A334668</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_RENCOM_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>53F9312F36FEC43E55FE029897034E45</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_ILET_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>CA904E28A6F0C319883C03ADAC5A93A8</Id>
+            <ItemType>18</ItemType>
+            <Name>MDC_DEMO_ID_POC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7E2D553FF440BF3A5B9CB191F613B0F4</Id>
+            <ItemType>20</ItemType>
+            <Name>PlanNumber</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EFF81B2111F74D97BC5F9869899231A8</Id>
+            <ItemType>0</ItemType>
+            <Name>Sample MetaData Process</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>18213FE4A3EBCCB9BB10AACCAE12CB83</Id>
+            <ItemType>0</ItemType>
+            <Name>ARBE - Duration Overrun Exception</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C525FA863EB74348961543C740ED00A0</Id>
+            <ItemType>31</ItemType>
+            <Name>Default</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id />
+            <ItemType>49</ItemType>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables />
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+        <Name />
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences>
+      <DotNetReferenceIdentity>
+        <ReferenceId>FC4A7E347D984994B76C942BFFCDF07B</ReferenceId>
+        <ReferencePath>TotalAgility.Sdk.dll</ReferencePath>
+        <ReferenceType>0</ReferenceType>
+        <ReferenceName />
+      </DotNetReferenceIdentity>
+    </DotNetReferences>
+    <CurrencyCodes />
+    <QuickAppType>QuickWorkflow</QuickAppType>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+  <SpaPackageType>Default</SpaPackageType>
+</SpaPackage>

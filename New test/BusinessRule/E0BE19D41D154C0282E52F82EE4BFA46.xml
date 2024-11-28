@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>E0BE19D41D154C0282E52F82EE4BFA46</Id>
+    <Name>BR_Cleanup_PlanNumbers</Name>
+    <Version>4</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>0</Version>
+  <ProcessIdentity>
+    <Id>F265F3E32AED45418716119E1DFD3FF3</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>0</Version>
+    <Name />
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>2E9FE0E7A27F461B81EC871E1BFF919C</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>95FDA3DEAF7145BBBA2404AA397CB67F</LastModifiedUser>
+  <LastModifiedDate>2022-06-30T12:02:18.277</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>DOCUMENTNUMBER</name>
+      <type>8</type>
+      <description>Document Number</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DOCUMENTNUMBER</name>
+      <type>8</type>
+      <description>Document Number</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>DOCUMENTNUMBER</name>
+      <type>8</type>
+      <description>Document Number</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DOCUMENTNUMBER</name>
+      <type>8</type>
+      <description>Document Number</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </Rule>
+  <ReleasedRuleDataXml>&lt;businessruledata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;inputs&gt;&lt;name&gt;DOCUMENTNUMBER&lt;/name&gt;&lt;type&gt;8&lt;/type&gt;&lt;description&gt;Document Number&lt;/description&gt;&lt;errorCodeMappingType&gt;Static&lt;/errorCodeMappingType&gt;&lt;variableAccessScope&gt;Public&lt;/variableAccessScope&gt;&lt;/inputs&gt;&lt;outputs&gt;&lt;name&gt;DOCUMENTNUMBER&lt;/name&gt;&lt;type&gt;8&lt;/type&gt;&lt;description&gt;Document Number&lt;/description&gt;&lt;errorCodeMappingType&gt;Static&lt;/errorCodeMappingType&gt;&lt;variableAccessScope&gt;Public&lt;/variableAccessScope&gt;&lt;/outputs&gt;&lt;/businessruledata&gt;</ReleasedRuleDataXml>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

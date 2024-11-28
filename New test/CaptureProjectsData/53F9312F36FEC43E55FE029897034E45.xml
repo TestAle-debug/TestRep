@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>53F9312F36FEC43E55FE029897034E45</Id>
+    <Version>17</Version>
+    <Name>MDC_DEMO_ILET_POC</Name>
+  </Identity>
+  <Category>
+    <Id>2E9FE0E7A27F461B81EC871E1BFF919C</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>MDC Automation</Name>
+    <Description />
+  </Category>
+  <Name>MDC_DEMO_ILET_POC</Name>
+  <Description />
+  <Status>Released</Status>
+  <LastModifiedProjectFile>2023-09-18T13:41:05.97</LastModifiedProjectFile>
+  <LastModifiedProjectFolderZip>0001-01-01T00:00:00</LastModifiedProjectFolderZip>
+  <LastModifiedUser>
+    <Id>36D3241829704899A4D2D402B077CF1E</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <OnlineLearningFolderId />
+  <ProjectType>DocumentGroup</ProjectType>
+  <IsOnlineLearningEnabled>false</IsOnlineLearningEnabled>
+  <IsSeparationEnabled>false</IsSeparationEnabled>
+  <LockedByModule>None</LockedByModule>
+  <IsSimpleProject>false</IsSimpleProject>
+  <TrainingSetPath />
+  <UsedLicenseFeatures>None</UsedLicenseFeatures>
+  <IsReadOnly>false</IsReadOnly>
+  <DoUpgrade>false</DoUpgrade>
+  <CustomVersion>0</CustomVersion>
+  <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  <IsCaptureSolutionProject>false</IsCaptureSolutionProject>
+  <QuickClassificationBaseDocTypeId />
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</ProjectInfo>
