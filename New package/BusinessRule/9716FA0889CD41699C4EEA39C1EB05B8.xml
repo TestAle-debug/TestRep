@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>9716FA0889CD41699C4EEA39C1EB05B8</Id>
+    <Name>Docspro BR Datum Controle</Name>
+    <Version>14</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>14</Version>
+  <ProcessIdentity>
+    <Id>9180F0A73DDC1549AA2372D1FCE779DD</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>14</Version>
+    <Name>Docspro BR Datum Controle</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>4FAC913880C9A482E28244491CAADFA8</LastModifiedUser>
+  <LastModifiedDate>2024-08-16T13:46:20</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>DATUM</name>
+      <type>8</type>
+      <description>Datum</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DATUMINFOOUTPUT</name>
+      <type>8</type>
+      <description>DatumInfoOutput</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>DATUM</name>
+      <type>8</type>
+      <description>Datum</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>DATUMINFOOUTPUT</name>
+      <type>8</type>
+      <description>DatumInfoOutput</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

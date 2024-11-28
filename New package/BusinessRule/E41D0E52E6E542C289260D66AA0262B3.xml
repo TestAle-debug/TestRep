@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>E41D0E52E6E542C289260D66AA0262B3</Id>
+    <Name>Docspro BR Bedrag Controle</Name>
+    <Version>35</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>35</Version>
+  <ProcessIdentity>
+    <Id>D2910D14BC2641DD858FA150FE7A3626</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>35</Version>
+    <Name>Docspro BR Bedrag Controle</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>E1BFE529A6044AAA9387359E76A8423B</LastModifiedUser>
+  <LastModifiedDate>2022-10-28T09:22:54.71</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>BTWLAAGDEC</name>
+      <type>14</type>
+      <description>BTWLAAGDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>SUBTOTAALDEC</name>
+      <type>14</type>
+      <description>SUBTOTAALDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>TOTAALDEC</name>
+      <type>14</type>
+      <description>TOTAALDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>BTWHOOGDEC</name>
+      <type>14</type>
+      <description>BTWHOOGDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>GBEDRAG</name>
+      <type>14</type>
+      <description>GBEDRAG</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>VALID</name>
+      <type>11</type>
+      <description>Valid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>ERRORMESSAGE</name>
+      <type>8</type>
+      <description>ErrorMessage</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>BTWLAAGDEC</name>
+      <type>14</type>
+      <description>BTWLAAGDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>SUBTOTAALDEC</name>
+      <type>14</type>
+      <description>SUBTOTAALDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>TOTAALDEC</name>
+      <type>14</type>
+      <description>TOTAALDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>BTWHOOGDEC</name>
+      <type>14</type>
+      <description>BTWHOOGDEC</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>GBEDRAG</name>
+      <type>14</type>
+      <description>GBEDRAG</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>VALID</name>
+      <type>11</type>
+      <description>Valid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>ERRORMESSAGE</name>
+      <type>8</type>
+      <description>ErrorMessage</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

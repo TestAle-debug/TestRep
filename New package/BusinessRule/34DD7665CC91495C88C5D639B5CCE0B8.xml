@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>34DD7665CC91495C88C5D639B5CCE0B8</Id>
+    <Name>Docspro BR OrderCheck</Name>
+    <Version>54</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>54</Version>
+  <ProcessIdentity>
+    <Id>169DFA2D7D9ABC36568FAE058EC9A05A</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>54</Version>
+    <Name>Docspro BR OrderCheck</Name>
+  </ProcessIdentity>
+  <RuleType>Process</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>4FAC913880C9A482E28244491CAADFA8</LastModifiedUser>
+  <LastModifiedDate>2022-08-05T12:55:01.693</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>INPUT_ORDERNR</name>
+      <type>8</type>
+      <description>Input_ordernr</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_CREDNR</name>
+      <type>8</type>
+      <description>input_credNr</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_EMAIL</name>
+      <type>8</type>
+      <description>Input_Email</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_PO_PLICHTING</name>
+      <type>8</type>
+      <description>Input_PO_Plichting</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_TOTAL</name>
+      <type>8</type>
+      <description>Input_Total</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>ERRMSG</name>
+      <type>8</type>
+      <description>ErrMsg</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>OUTPUT_ORDERVALID</name>
+      <type>11</type>
+      <description>Output_OrderValid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>OUTPUTCOUNTER</name>
+      <type>3</type>
+      <description>Output_CounterDBcheck</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>INPUT_ORDERNR</name>
+      <type>8</type>
+      <description>Input_ordernr</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_CREDNR</name>
+      <type>8</type>
+      <description>input_credNr</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_EMAIL</name>
+      <type>8</type>
+      <description>Input_Email</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_PO_PLICHTING</name>
+      <type>8</type>
+      <description>Input_PO_Plichting</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>INPUT_TOTAL</name>
+      <type>8</type>
+      <description>Input_Total</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>ERRMSG</name>
+      <type>8</type>
+      <description>ErrMsg</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>OUTPUT_ORDERVALID</name>
+      <type>11</type>
+      <description>Output_OrderValid</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>OUTPUTCOUNTER</name>
+      <type>3</type>
+      <description>Output_CounterDBcheck</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SpaPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpaPackageIdentity>
+    <Id>3ED9CD6DFDD6466FA7085B6AC08B8476</Id>
+    <Name>New package</Name>
+    <Version>5</Version>
+  </SpaPackageIdentity>
+  <Description />
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>Default Category</Name>
+    <Description />
+  </CategoryIdentity>
+  <LastModifiedDateTime>2024-10-25T09:58:39.007</LastModifiedDateTime>
+  <LastModifiedResource>
+    <Id>9B2BEBC1321448459DD67E26DBD87E69</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>test</Name>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedResource>
+  <Data>
+    <Processes>
+      <ProcessIdentity>
+        <Id>EAAF58814D19BA0BC9565F6446066E0B</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>47</Version>
+        <Name>Test_DataAccess</Name>
+      </ProcessIdentity>
+    </Processes>
+    <ProcessExportOption>
+      <ExportResources>false</ExportResources>
+      <ExportGroupResourceMembers>false</ExportGroupResourceMembers>
+      <ExportResourcesExtensions>false</ExportResourcesExtensions>
+      <ExportCategories>false</ExportCategories>
+      <WithCategoryParentage>false</WithCategoryParentage>
+      <GeneralizedExport>false</GeneralizedExport>
+      <ExportDotNetReferencesWithPath>true</ExportDotNetReferencesWithPath>
+      <ExportCaseFragments>false</ExportCaseFragments>
+      <ExportTemplateSkins>true</ExportTemplateSkins>
+      <ExportExtractionClassificationData>true</ExportExtractionClassificationData>
+      <ExportGlobalDataModels>false</ExportGlobalDataModels>
+      <ExportProcessDataModels>false</ExportProcessDataModels>
+      <ExportType>CombineAssociatedMaps</ExportType>
+      <Version>0</Version>
+      <ExportServerVariables>true</ExportServerVariables>
+      <XmlExpressionVariables />
+      <PreloadScript>1</PreloadScript>
+      <SleepDuration>0</SleepDuration>
+      <CategoryIds />
+      <ProcessDocument>false</ProcessDocument>
+      <ProcessViewer>false</ProcessViewer>
+      <DotNetActivityType>0</DotNetActivityType>
+      <Projects />
+      <AllProcessVariables />
+      <ExportOnlyDocumentGroupIdentityDetails>false</ExportOnlyDocumentGroupIdentityDetails>
+      <SiteDetailsRequired>false</SiteDetailsRequired>
+      <CmisSiteDetailsRequired>false</CmisSiteDetailsRequired>
+      <DocumentTemplates />
+      <Assets />
+      <PerceptiveSiteDetailsRequired>false</PerceptiveSiteDetailsRequired>
+      <IncludeExportConnectorMappings>false</IncludeExportConnectorMappings>
+      <IncludeDocumentTypeRetentionPolicy>false</IncludeDocumentTypeRetentionPolicy>
+      <ProcessDataModels />
+      <IsSpaExport>false</IsSpaExport>
+      <ProcessType>BusinessProcess</ProcessType>
+      <ProtectedItems />
+      <ExportPageRenditions>false</ExportPageRenditions>
+      <ExportReportingTags>false</ExportReportingTags>
+      <ExportTestPlans>false</ExportTestPlans>
+      <IncludeProcessAssociationsInPackage>false</IncludeProcessAssociationsInPackage>
+      <IsGitExport>true</IsGitExport>
+      <ExcludeCaptureProjectTrainingSets>false</ExcludeCaptureProjectTrainingSets>
+    </ProcessExportOption>
+    <WorkAllocationRules />
+    <Skins />
+    <BusinessRules>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>34DD7665CC91495C88C5D639B5CCE0B8</Id>
+        <Name>Docspro BR OrderCheck</Name>
+        <Version>54</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>DA76DA9A45244625B7608D8764DC5979</Id>
+        <Name>Docspro BR Double invoice</Name>
+        <Version>11</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>6B006692967846DEB0F3BB06EE7D6294</Id>
+        <Name>Docspro BR field check</Name>
+        <Version>13</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>9716FA0889CD41699C4EEA39C1EB05B8</Id>
+        <Name>Docspro BR Datum Controle</Name>
+        <Version>14</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+      <BusinessRuleIdentity>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Id>E41D0E52E6E542C289260D66AA0262B3</Id>
+        <Name>Docspro BR Bedrag Controle</Name>
+        <Version>35</Version>
+        <ProcessId />
+      </BusinessRuleIdentity>
+    </BusinessRules>
+    <Assets>
+      <AssetIdentity>
+        <Id>061C749BDF234526BE3E02C67ED1AFB7</Id>
+        <Name>view_icon.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>1D186161C6DB420DBE0F90ED725B7C32</Id>
+        <Name>add_icon.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>2739D1DAE8F842F6B9E5B3FB91D1C4F6</Id>
+        <Name>update_icon.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>46C6E25D1CAF4656B577C370456628D1</Id>
+        <Name>refresh_icon.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>860B3D3F770F4BF4A7EC9B841145ACA7</Id>
+        <Name>ViewNote.gif</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>9909537946D94A35A1A8A7461AE26C60</Id>
+        <Name>assignment_turned_in.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+      <AssetIdentity>
+        <Id>F3846898CC2C4C7A9DAFD4D2520D723B</Id>
+        <Name>cancel_activity.png</Name>
+        <AssetType>Image</AssetType>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <StorageId>0</StorageId>
+      </AssetIdentity>
+    </Assets>
+    <Forms>
+      <FormIdentity>
+        <Id>141FD112B3FF480B80B7CC89AB819956</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_MainCredNotFound_Val_20221706</Name>
+        <Version>7</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>1C705D3BFE6C4C4FB5E57329DBFB7308</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_JobdetailsAddNote</Name>
+        <Version>6</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>2C4E5D2C9D414DE19C3DB7DC90C292E8</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_Main OnHold_Val_20221706</Name>
+        <Version>8</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>4555C00E92F34C88A8995AE69E1DF439</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_Main invoice_Val</Name>
+        <Version>73</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>535FAFE735F74342BD222C8361348694</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_SearchCred</Name>
+        <Version>87</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>58213421A4E445E8A13CA592EC6FFC62</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>JobdetailsAddNote</Name>
+        <Version>24</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>963C468D79384847801944A3506A74D9</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_Main PO Plichtig_Val_20221706</Name>
+        <Version>1</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>98AEDE2646FC402484C75F019B33C49A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Test_DataAccessTestVar</Name>
+        <Version>19</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>998101F5D38D431D9A29A2A3250447C5</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_JobDetailsNotes</Name>
+        <Version>15</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>9DB3D0CCAA4A418FA3DB77272EAB74F6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>AutomationRequest</Name>
+        <Version>37</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>A2635D2B5AA147DBAE13A256B4467D53</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_Main invoice_Val_20221706</Name>
+        <Version>34</Version>
+      </FormIdentity>
+      <FormIdentity>
+        <Id>D66AE968796B49C5BED1E7DD16B90AA6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW_OrderNr</Name>
+        <Version>38</Version>
+      </FormIdentity>
+    </Forms>
+    <FormTemplates />
+    <FormExportOptions>
+      <ExportHeader>false</ExportHeader>
+      <ExportNavigation>false</ExportNavigation>
+      <ExportGlobalVariables>true</ExportGlobalVariables>
+      <ExportWebServices>false</ExportWebServices>
+      <ExportBusinessRules>false</ExportBusinessRules>
+      <ExportSecurityTokens>false</ExportSecurityTokens>
+      <ExportSecurityRoles>false</ExportSecurityRoles>
+      <ExportRoleMembers>false</ExportRoleMembers>
+      <IsSpaExport>false</IsSpaExport>
+      <ProtectedItems />
+    </FormExportOptions>
+    <Navigations />
+    <Sites />
+    <Themes />
+    <Languages />
+    <Lookups />
+    <Resources />
+    <Entities />
+    <WorkTypes />
+    <Checklists />
+    <DataModels />
+    <Folders />
+    <ExtractionGroups>
+      <DocumentGroupIdentity>
+        <Id>204B1B42A8AE975BD5000A11C4FA10A6</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>107</Version>
+        <Name>EG U4 UBW Invoices</Name>
+      </DocumentGroupIdentity>
+    </ExtractionGroups>
+    <ClassificationGroups>
+      <ClassificationGroupIdentity>
+        <Id>7F44D2DB3335C0DDDEDE25F754E8BC2D</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Version>98</Version>
+        <Name>CG U4 UBW Invoices</Name>
+      </ClassificationGroupIdentity>
+    </ClassificationGroups>
+    <Formatters>
+      <FormatterIdentity>
+        <Id>C3198C7F758B6468792DBD0EC1962E67</Id>
+        <Name>DisplayDateFormatter</Name>
+      </FormatterIdentity>
+      <FormatterIdentity>
+        <Id>6CF7C2345ED84D20903E8A707156FAA5</Id>
+        <Name>Default Amount Formatter</Name>
+      </FormatterIdentity>
+    </Formatters>
+    <FieldValidators>
+      <ValidatorIdentity>
+        <Id>7B4D62321868627FD4E66E1F398F9CF3</Id>
+        <Name>Global Field minimum lenght 1</Name>
+      </ValidatorIdentity>
+    </FieldValidators>
+    <ChecklistItems />
+    <Events />
+    <Targets />
+    <Alerts />
+    <AlertExportOption>
+      <ExportAssociatedProcess>false</ExportAssociatedProcess>
+    </AlertExportOption>
+    <Categories>
+      <CategoryIdentity>
+        <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Default Category</Name>
+        <Description />
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>60CE9460796C4537861167787BEE8598</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>U4_UBW</Name>
+        <Description />
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>8B1CDA2CB13A413E9F9D1815265ED9C2</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Docspro solutions</Name>
+        <Description />
+      </CategoryIdentity>
+      <CategoryIdentity>
+        <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>TotalAgility Forms</Name>
+        <Description />
+      </CategoryIdentity>
+    </Categories>
+    <ScanVrsProfiles />
+    <PdfGenerationProfiles />
+    <DocumentConversionProfiles />
+    <BarcodePatchcodeProfiles />
+    <JobSchedules />
+    <RegularExpressions />
+    <Personas />
+    <SeparationProfiles />
+    <Queries />
+    <ShowProcessAssociations>false</ShowProcessAssociations>
+    <ShowFormAssociations>false</ShowFormAssociations>
+    <SystemExportOptions>
+      <IncludeNoteTypes>false</IncludeNoteTypes>
+      <IncludeHotKeys>false</IncludeHotKeys>
+      <IncludePageRenditions>false</IncludePageRenditions>
+      <IncludeNodeColors>false</IncludeNodeColors>
+      <IncludeReportingTags>false</IncludeReportingTags>
+      <IncludeErrorCodes>false</IncludeErrorCodes>
+    </SystemExportOptions>
+    <ShowCategoryAssociations>false</ShowCategoryAssociations>
+    <Packages />
+    <ProtectedItemsData>
+      <ProtectAllItems>false</ProtectAllItems>
+      <ProtectedItems />
+    </ProtectedItemsData>
+    <DocumentTypeVariantCollection />
+    <MissingAssociations />
+    <IncludeRoleMembers>false</IncludeRoleMembers>
+    <IncludeDevices>false</IncludeDevices>
+    <IncludeDeviceProfiles>false</IncludeDeviceProfiles>
+    <IncludeDeviceSettings>false</IncludeDeviceSettings>
+    <Deployments />
+    <ErrorList />
+    <CaptureControlLayouts />
+    <CustomServiceIdentities />
+    <CustomServiceGroupIdentities />
+    <CaptureSolutionIdentity>
+      <Id />
+      <Name />
+      <Version>0</Version>
+    </CaptureSolutionIdentity>
+    <ImportConnections />
+    <ImportSources />
+    <OAuthServers />
+    <QuickApp>
+      <Id />
+      <Name />
+      <Version>0</Version>
+      <AppType>QuickWorkflow</AppType>
+    </QuickApp>
+    <GitFolderName />
+    <PackageItemAssociations>
+      <PackageItemAssociation>
+        <Id>EAAF58814D19BA0BC9565F6446066E0B</Id>
+        <Name />
+        <ItemType>0</ItemType>
+        <AssociatedItems>
+          <AssociatedItem>
+            <Id>F3846898CC2C4C7A9DAFD4D2520D723B</Id>
+            <ItemType>3</ItemType>
+            <Name>cancel_activity.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9909537946D94A35A1A8A7461AE26C60</Id>
+            <ItemType>3</ItemType>
+            <Name>assignment_turned_in.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>860B3D3F770F4BF4A7EC9B841145ACA7</Id>
+            <ItemType>3</ItemType>
+            <Name>ViewNote.gif</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>46C6E25D1CAF4656B577C370456628D1</Id>
+            <ItemType>3</ItemType>
+            <Name>refresh_icon.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1D186161C6DB420DBE0F90ED725B7C32</Id>
+            <ItemType>3</ItemType>
+            <Name>add_icon.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>061C749BDF234526BE3E02C67ED1AFB7</Id>
+            <ItemType>3</ItemType>
+            <Name>view_icon.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2739D1DAE8F842F6B9E5B3FB91D1C4F6</Id>
+            <ItemType>3</ItemType>
+            <Name>update_icon.png</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E41D0E52E6E542C289260D66AA0262B3</Id>
+            <ItemType>1</ItemType>
+            <Name>Docspro BR Bedrag Controle</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6B006692967846DEB0F3BB06EE7D6294</Id>
+            <ItemType>1</ItemType>
+            <Name>Docspro BR field check</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>DA76DA9A45244625B7608D8764DC5979</Id>
+            <ItemType>1</ItemType>
+            <Name>Docspro BR Double invoice</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>34DD7665CC91495C88C5D639B5CCE0B8</Id>
+            <ItemType>1</ItemType>
+            <Name>Docspro BR OrderCheck</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9716FA0889CD41699C4EEA39C1EB05B8</Id>
+            <ItemType>1</ItemType>
+            <Name>Docspro BR Datum Controle</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>60CE9460796C4537861167787BEE8598</Id>
+            <ItemType>28</ItemType>
+            <Name>U4_UBW</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8B1CDA2CB13A413E9F9D1815265ED9C2</Id>
+            <ItemType>28</ItemType>
+            <Name>Docspro solutions</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+            <ItemType>28</ItemType>
+            <Name>Default Category</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>E2A1706B60424707B39A1BDDDC8DB69C</Id>
+            <ItemType>28</ItemType>
+            <Name>TotalAgility Forms</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7F44D2DB3335C0DDDEDE25F754E8BC2D</Id>
+            <ItemType>16</ItemType>
+            <Name>CG U4 UBW Invoices</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>161F8F818093437482D2886B7B6756BB</Id>
+            <ItemType>36</ItemType>
+            <Name>SESSION_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+            <ItemType>36</ItemType>
+            <Name>WORKQUEUE_FORM</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>3F92021C5D80D6402F256B928A455668</Id>
+            <ItemType>36</ItemType>
+            <Name>ConStr</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+            <ItemType>36</ItemType>
+            <Name>EPC</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+            <ItemType>36</ItemType>
+            <Name>JOB_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+            <ItemType>36</ItemType>
+            <Name>NODE_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0CF933A4EF557D20A26AB488996A6C56</Id>
+            <ItemType>36</ItemType>
+            <Name>DB_custom</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>0D8E98DA41AD795E9C9A5786C83B16F7</Id>
+            <ItemType>36</ItemType>
+            <Name>InvoiceNoteType_ID</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>B88535B8596C4B4B9EF8C43A5190B1A0</Id>
+            <ItemType>36</ItemType>
+            <Name>SYSTEM_JOB_NOTE_TEXT</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>FC4A7E347D984994B76C942BFFCDF07B</Id>
+            <ItemType>47</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>204B1B42A8AE975BD5000A11C4FA10A6</Id>
+            <ItemType>18</ItemType>
+            <Name>EG U4 UBW Invoices</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>7B4D62321868627FD4E66E1F398F9CF3</Id>
+            <ItemType>41</ItemType>
+            <Name>Global Field minimum lenght 1</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>C3198C7F758B6468792DBD0EC1962E67</Id>
+            <ItemType>20</ItemType>
+            <Name>DisplayDateFormatter</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>6CF7C2345ED84D20903E8A707156FAA5</Id>
+            <ItemType>20</ItemType>
+            <Name>Default Amount Formatter</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>98AEDE2646FC402484C75F019B33C49A</Id>
+            <ItemType>6</ItemType>
+            <Name>Test_DataAccessTestVar</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>9DB3D0CCAA4A418FA3DB77272EAB74F6</Id>
+            <ItemType>6</ItemType>
+            <Name>AutomationRequest</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>4555C00E92F34C88A8995AE69E1DF439</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_Main invoice_Val</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>535FAFE735F74342BD222C8361348694</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_SearchCred</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>998101F5D38D431D9A29A2A3250447C5</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_JobDetailsNotes</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>58213421A4E445E8A13CA592EC6FFC62</Id>
+            <ItemType>6</ItemType>
+            <Name>JobdetailsAddNote</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>1C705D3BFE6C4C4FB5E57329DBFB7308</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_JobdetailsAddNote</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>D66AE968796B49C5BED1E7DD16B90AA6</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_OrderNr</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>2C4E5D2C9D414DE19C3DB7DC90C292E8</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_Main OnHold_Val_20221706</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>A2635D2B5AA147DBAE13A256B4467D53</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_Main invoice_Val_20221706</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>141FD112B3FF480B80B7CC89AB819956</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_MainCredNotFound_Val_20221706</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>963C468D79384847801944A3506A74D9</Id>
+            <ItemType>6</ItemType>
+            <Name>U4_UBW_Main PO Plichtig_Val_20221706</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>EAAF58814D19BA0BC9565F6446066E0B</Id>
+            <ItemType>0</ItemType>
+            <Name>Test_DataAccess</Name>
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>TESTDB_CONNECTION_STRING</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>JOB_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>DB_CUSTOM</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+          <AssociatedItem>
+            <Id>SPP_SYSTEM_SESSION_ID</Id>
+            <ItemType>35</ItemType>
+            <Name />
+          </AssociatedItem>
+        </AssociatedItems>
+      </PackageItemAssociation>
+    </PackageItemAssociations>
+    <GlobalVariables>
+      <SessionVariableIdentity>
+        <Name>SESSION_ID</Name>
+        <Id>161F8F818093437482D2886B7B6756BB</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>WORKQUEUE_FORM</Name>
+        <Id>1E70BD400456422DBFA431767DC6CB0F</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>ConStr</Name>
+        <Id>3F92021C5D80D6402F256B928A455668</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>EPC</Name>
+        <Id>5E0F01E4914A48D08009FFC40C130EFF</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>JOB_ID</Name>
+        <Id>8A1DD88A21124A98A51B5679DE7FDCB4</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>NODE_ID</Name>
+        <Id>AFBE96EA665E4F16A2FDA88044A23D0A</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>DB_custom</Name>
+        <Id>0CF933A4EF557D20A26AB488996A6C56</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>InvoiceNoteType_ID</Name>
+        <Id>0D8E98DA41AD795E9C9A5786C83B16F7</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+      <SessionVariableIdentity>
+        <Name>SYSTEM_JOB_NOTE_TEXT</Name>
+        <Id>B88535B8596C4B4B9EF8C43A5190B1A0</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      </SessionVariableIdentity>
+    </GlobalVariables>
+    <ServerVariables>
+      <VariableIdentity>
+        <Id>SPP_SYSTEM_SESSION_ID</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>SPP_SYSTEM_SESSION_ID</DisplayName>
+        <Name />
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>DB_CUSTOM</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>DB_custom</DisplayName>
+        <Name />
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>TESTDB_CONNECTION_STRING</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>TestDB_Connection_String</DisplayName>
+        <Name />
+      </VariableIdentity>
+      <VariableIdentity>
+        <Id>JOB_ID</Id>
+        <Version>0</Version>
+        <OwnerId />
+        <DisplayName>Job_ID</DisplayName>
+        <Name />
+      </VariableIdentity>
+    </ServerVariables>
+    <DotNetReferences />
+    <CurrencyCodes />
+    <QuickAppType>QuickWorkflow</QuickAppType>
+  </Data>
+  <Comments />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <PermissionType>NoAccess</PermissionType>
+  <SpaPackageType>Default</SpaPackageType>
+</SpaPackage>

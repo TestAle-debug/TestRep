@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>204B1B42A8AE975BD5000A11C4FA10A6</Id>
+    <Version>107</Version>
+    <Name>EG U4 UBW Invoices</Name>
+  </Identity>
+  <Category>
+    <Id>60CE9460796C4537861167787BEE8598</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>U4_UBW</Name>
+    <Description />
+  </Category>
+  <Name>EG U4 UBW Invoices</Name>
+  <Description />
+  <Status>Released</Status>
+  <LastModifiedProjectFile>2024-10-25T12:42:01.363</LastModifiedProjectFile>
+  <LastModifiedProjectFolderZip>2024-02-22T16:43:53.84</LastModifiedProjectFolderZip>
+  <LastModifiedUser>
+    <Id>D49975CB39BA4C32B6D96E00F6142CA8</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <OnlineLearningFolderId />
+  <ProjectType>DocumentGroup</ProjectType>
+  <IsOnlineLearningEnabled>false</IsOnlineLearningEnabled>
+  <IsSeparationEnabled>false</IsSeparationEnabled>
+  <LockedByModule>None</LockedByModule>
+  <IsSimpleProject>false</IsSimpleProject>
+  <TrainingSetPath />
+  <UsedLicenseFeatures>None</UsedLicenseFeatures>
+  <ConfigurationSet>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ConfigSetFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Name&gt;DefaultTAConfigSet&lt;/Name&gt;
+  &lt;Groups&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;Dictionaries&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;All_months&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://KTA/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;Plaatsnamen&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://KTA/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;FactuurDatums&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://KTA/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;Factuurnummers&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://KTA/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;AGL_Amountweakwords&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://PRD-KTAINT01/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;NL_Banknummers&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://PRD-KTAINT01/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;NL_Banknummers_Ignore&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://PRD-KTAINT01/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;ReferenceNumbers&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;https://PRD-KTAINT01/TotalAgility/RecognitionFiles/DICT&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;OnlineLearning&lt;/Name&gt;
+      &lt;Objects /&gt;
+      &lt;Properties&gt;
+        &lt;ConfigSetProperty&gt;
+          &lt;Name&gt;Path&lt;/Name&gt;
+          &lt;Value&gt;C:\ProgramData\Kofax Transformation\OnlineLearning\project&lt;/Value&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/ConfigSetProperty&gt;
+      &lt;/Properties&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;ScriptVariables&lt;/Name&gt;
+      &lt;Objects /&gt;
+      &lt;Properties&gt;
+        &lt;ConfigSetProperty&gt;
+          &lt;Name&gt;SQLCon&lt;/Name&gt;
+          &lt;Value&gt;Provider=SQLNCLI11;Server=SQL-Instance1;Database=TotalAgility_Custom_provgelderland_PRD;User Id=provgelderland_CustomDB;Password=DdXaNXMNj5xaAZgsRs0n;&lt;/Value&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/ConfigSetProperty&gt;
+      &lt;/Properties&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;RelationalConnections&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;UBW_Crediteuren&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ConnectionString&lt;/Name&gt;
+              &lt;Value&gt;data source=prd-ktadb01;initial catalog=TotalAgility_Custom_provgelderland_PRD;user id=provgelderland_CustomDB;password=********************;connect timeout=30&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value&gt;L4fnspLtzsKKzCT3HF7FTEnhng7DwmoU&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+  &lt;/Groups&gt;
+&lt;/ConfigSetFile&gt;</ConfigurationSet>
+  <IsReadOnly>false</IsReadOnly>
+  <DoUpgrade>false</DoUpgrade>
+  <CustomVersion>0</CustomVersion>
+  <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  <IsCaptureSolutionProject>false</IsCaptureSolutionProject>
+  <QuickClassificationBaseDocTypeId />
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</ProjectInfo>

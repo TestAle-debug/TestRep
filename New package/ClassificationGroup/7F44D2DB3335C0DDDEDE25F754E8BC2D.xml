@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <Id>7F44D2DB3335C0DDDEDE25F754E8BC2D</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>98</Version>
+    <Name>CG U4 UBW Invoices</Name>
+  </Identity>
+  <Name>CG U4 UBW Invoices</Name>
+  <Description />
+  <Status>Released</Status>
+  <IsShared>false</IsShared>
+  <Category>
+    <Id>60CE9460796C4537861167787BEE8598</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name>U4_UBW</Name>
+    <Description />
+  </Category>
+  <DocumentGroups>
+    <DocumentGroupIdentity>
+      <Id>204B1B42A8AE975BD5000A11C4FA10A6</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>107</Version>
+      <Name>EG U4 UBW Invoices</Name>
+    </DocumentGroupIdentity>
+  </DocumentGroups>
+  <LastModifiedDate>2024-10-25T14:37:48.047</LastModifiedDate>
+  <LastModifiedUser>
+    <Id>D49975CB39BA4C32B6D96E00F6142CA8</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+    <ManagerialLevel>0</ManagerialLevel>
+  </LastModifiedUser>
+  <LockedByModule>None</LockedByModule>
+  <ClassificationOnlineLearningEnabled>false</ClassificationOnlineLearningEnabled>
+  <ClassificationMaxDocCount>2000</ClassificationMaxDocCount>
+  <ClassificationOnlineLearningFolderId />
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+        <ManagerialLevel>0</ManagerialLevel>
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <OverwriteDocumentTypes>false</OverwriteDocumentTypes>
+  <OverwrittenDocumentTypes />
+</ClassificationGroup>

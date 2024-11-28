@@ -1,0 +1,518 @@
+<processmaps xmlns:dt="urn:schemas-microsoft-com:datatypes" dbversion="8.0.1" parentprocessmapversion="35.000000" parentprocessmapid="D2910D14BC2641DD858FA150FE7A3626"><foldertypelist /><processmap><procdata><mapid>D2910D14BC2641DD858FA150FE7A3626</mapid><mapname>Docspro BR Bedrag Controle</mapname><mapauthor>Unknown</mapauthor><mapauthorid>E1BFE529A6044AAA9387359E76A8423B</mapauthorid><maptrackstorejvh>0</maptrackstorejvh><helptext></helptext><lastmodified>E1BFE529A6044AAA9387359E76A8423B</lastmodified><allocationalgorithm>0</allocationalgorithm><arrowstyle>0</arrowstyle><arrowweighting>0</arrowweighting><designtimesettings>&lt;designtimesettings&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;collaborationnodes /&gt;&lt;groupartifacts /&gt;&lt;pools&gt;&lt;pool&gt;&lt;xposition&gt;25&lt;/xposition&gt;&lt;yposition&gt;25&lt;/yposition&gt;&lt;width&gt;1410&lt;/width&gt;&lt;height&gt;719.1&lt;/height&gt;&lt;name&gt;New Business Rule&lt;/name&gt;&lt;id&gt;F2658174A1504212AA9BCD0320B967B5&lt;/id&gt;&lt;type&gt;0&lt;/type&gt;&lt;lanes&gt;&lt;lane&gt;&lt;name&gt;Lane1&lt;/name&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid&gt;F2658174A1504212AA9BCD0320B967B5&lt;/poolid&gt;&lt;height&gt;719.1&lt;/height&gt;&lt;/lane&gt;&lt;/lanes&gt;&lt;/pool&gt;&lt;/pools&gt;&lt;messageflows /&gt;&lt;layoutdirection&gt;Horizontal&lt;/layoutdirection&gt;&lt;layouttype&gt;ProcessTree&lt;/layouttype&gt;&lt;zoomfactor&gt;100&lt;/zoomfactor&gt;&lt;viewactivitycost&gt;False&lt;/viewactivitycost&gt;&lt;viewactivityduration&gt;False&lt;/viewactivityduration&gt;&lt;viewactivityresources&gt;False&lt;/viewactivityresources&gt;&lt;viewgroups&gt;False&lt;/viewgroups&gt;&lt;viewpools&gt;False&lt;/viewpools&gt;&lt;compatiblewithallcasedefversions&gt;0&lt;/compatiblewithallcasedefversions&gt;&lt;hasdocumentset&gt;False&lt;/hasdocumentset&gt;&lt;startnodes&gt;&lt;startnode&gt;&lt;designtimesettings&gt;&lt;xposition&gt;50&lt;/xposition&gt;&lt;yposition&gt;65&lt;/yposition&gt;&lt;width&gt;30&lt;/width&gt;&lt;height&gt;30&lt;/height&gt;&lt;inheritcolorfromsystem&gt;False&lt;/inheritcolorfromsystem&gt;&lt;colour&gt;#FF62A716&lt;/colour&gt;&lt;eventtype&gt;Default&lt;/eventtype&gt;&lt;name&gt;Start&lt;/name&gt;&lt;textposition&gt;CentreRight&lt;/textposition&gt;&lt;conditionpathdescription /&gt;&lt;lane&gt;&lt;name&gt;Lane1&lt;/name&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid&gt;F2658174A1504212AA9BCD0320B967B5&lt;/poolid&gt;&lt;height&gt;719.1&lt;/height&gt;&lt;/lane&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;/designtimesettings&gt;&lt;/startnode&gt;&lt;/startnodes&gt;&lt;redraw&gt;False&lt;/redraw&gt;&lt;/designtimesettings&gt;</designtimesettings><attachments></attachments><annotations></annotations><formsections></formsections><form></form><categoryid>201F370CA5164F76ADDD8EEEFF666AF7</categoryid><targetdays>0</targetdays><targethours>0</targethours><targetmins>0</targetmins><targetsecs>0</targetsecs><priority>1</priority><transactional>0</transactional><backgroundcolour>0</backgroundcolour><version>35.000000</version><cost>0.000000</cost><creationdate>2016-01-26T16:34:37</creationdate><changedate>2022-10-28T09:22:54</changedate><description></description><status>2</status><newmap>0</newmap><archivefinishedjobs>0</archivefinishedjobs><straightthrough>1</straightthrough><poolid>0</poolid><dynexpfinishtimevar></dynexpfinishtimevar><mapmilestonesrvstdtag /><mapmilestonescopetag>0</mapmilestonescopetag><mapmilestonetag /><dynamicbudget></dynamicbudget><budget>0.000000</budget><processtype>5</processtype><processtypestring>BusinessRule</processtypestring><associatedcaseid></associatedcaseid><associatedcase></associatedcase><latestcaseversion>0.000000</latestcaseversion><prefixvariable>0</prefixvariable><completioneventmapid></completioneventmapid><completioneventmapname></completioneventmapname><assocjobsoncompletion>0</assocjobsoncompletion><sendemail>0</sendemail><emailto>0</emailto><subjecttext></subjecttext><subjectvar></subjectvar><contenttext></contenttext><contentvar></contentvar><urltext></urltext><urlvar></urlvar><appendassocfile>0</appendassocfile><initialisationvariables><initialisationvariable><varname>BTWLAAGDEC</varname></initialisationvariable><initialisationvariable><varname>SUBTOTAALDEC</varname></initialisationvariable><initialisationvariable><varname>TOTAALDEC</varname></initialisationvariable><initialisationvariable><varname>BTWHOOGDEC</varname></initialisationvariable><initialisationvariable><varname>GBEDRAG</varname></initialisationvariable></initialisationvariables><outputvariables><outputvariable><varid>VALID</varid></outputvariable><outputvariable><varid>ERRORMESSAGE</varid></outputvariable></outputvariables><maintenanceaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></maintenanceaccess><creationaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></creationaccess><suspendaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></suspendaccess><terminateaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></terminateaccess><restartaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></restartaccess><holdaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></holdaccess><customiseaccess /><jobdetailviewaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></jobdetailviewaccess><scanvrsprofileaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></scanvrsprofileaccess><separationprofileaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></separationprofileaccess><updatedocumentcontaineraccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></updatedocumentcontaineraccess><editbusinessdataaccess><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></editbusinessdataaccess><defaultusableresources><resource><resourcetype>3</resourcetype><resourcename>Everyone</resourcename><resourceid>7DF43CCDF24611D2804B00104B71BD15</resourceid><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><unavailability>Default</unavailability><accesstype>0</accesstype><seqassignorder>0</seqassignorder><excluded>0</excluded></resource></defaultusableresources><exceptions><exception><exceptioncode>EXP0004</exceptioncode><processmapid /><processmapname /><description>Invoked when the cost of job exceeds the expected value.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0005</exceptioncode><processmapid /><processmapname /><description>Invoked when a job exceeds its expected duration.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0006</exceptioncode><processmapid /><processmapname /><description>Invoked when an activity exceeds its expected duration.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0009</exceptioncode><processmapid /><processmapname /><description>Invoked when a Script Object fails to execute automatically.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0010</exceptioncode><processmapid /><processmapname /><description>Invoked when a process is stalled.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0013</exceptioncode><processmapid /><processmapname /><description>Invoked when an activity crosses the due date.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0017</exceptioncode><processmapid /><processmapname /><description>Invoked when synchronous processing fails.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0018</exceptioncode><processmapid /><processmapname /><description>Invoked when no usable resource is assigned to an activity.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0019</exceptioncode><processmapid /><processmapname /><description>Invoked when a .NET object fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0020</exceptioncode><processmapid /><processmapname /><description>Invoked when a Web Service object fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0022</exceptioncode><processmapid /><processmapname /><description>Invoked when a C# Script activity fails to execute when running automatically.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0023</exceptioncode><processmapid /><processmapname /><description>Invoked when a VB .NET Script activity fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0025</exceptioncode><processmapid /><processmapname /><description>Invoked when a Data Access activity fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0036</exceptioncode><processmapid /><processmapname /><description>Invoked when the transfer of documents to another server fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception><exception><exceptioncode>EXP0038</exceptioncode><processmapid /><processmapname /><description>Invoked when any automatic activity fails to execute.</description><version>0.000000</version><serveronly>0</serveronly></exception></exceptions><states /><milestones /><bpescalations /><businessdatavariables /><serverid>9BBE2071E2425548BC54F7AD005BD974</serverid><xmlexpressionlist /><ragstatus><amberthreshold>0</amberthreshold><redthreshold>0</redthreshold><blackthreshold>0</blackthreshold><purplethreshold>0</purplethreshold></ragstatus><casedefcomruntime_data /><archivetopi>0</archivetopi><runtime_settings>0</runtime_settings><process_owner_id></process_owner_id><score_rule></score_rule><map_valid_from /><map_valid_to /><captureenabled>0</captureenabled><iscaptureprocess>0</iscaptureprocess><reportingtag></reportingtag><settingsxml>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;BusinessProcessSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;CaptureProcessSettings&gt;
+    &lt;ClassificationGroup&gt;
+      &lt;Id /&gt;
+      &lt;AutomaticallyPopulate&gt;false&lt;/AutomaticallyPopulate&gt;
+      &lt;Version&gt;0&lt;/Version&gt;
+      &lt;Name /&gt;
+    &lt;/ClassificationGroup&gt;
+    &lt;ScanVrsProfiles&gt;
+      &lt;ScanVrsProfileIdentity&gt;
+        &lt;Id&gt;C525FA863EB74348961543C740ED00A0&lt;/Id&gt;
+        &lt;Name&gt;Default&lt;/Name&gt;
+      &lt;/ScanVrsProfileIdentity&gt;
+    &lt;/ScanVrsProfiles&gt;
+    &lt;SeparationProfile /&gt;
+    &lt;BarcodePatchcodeProfile /&gt;
+    &lt;DefaultScanVrsProfile&gt;
+      &lt;Id&gt;C525FA863EB74348961543C740ED00A0&lt;/Id&gt;
+      &lt;Name&gt;Default&lt;/Name&gt;
+    &lt;/DefaultScanVrsProfile&gt;
+    &lt;DocConversionProfiles /&gt;
+    &lt;DefaultDocConversionProfile /&gt;
+    &lt;SaveScannedImageAsPageRendition&gt;false&lt;/SaveScannedImageAsPageRendition&gt;
+    &lt;PageRendition&gt;0&lt;/PageRendition&gt;
+    &lt;PdfTextExtractionMode&gt;0&lt;/PdfTextExtractionMode&gt;
+    &lt;AllowRotateReorderImportedImages&gt;true&lt;/AllowRotateReorderImportedImages&gt;
+    &lt;AllowSplitMergeDeleteImportedDocument&gt;true&lt;/AllowSplitMergeDeleteImportedDocument&gt;
+    &lt;PdfTextWordSeparationChars&gt;/:()-#&lt;/PdfTextWordSeparationChars&gt;
+    &lt;PdfTextExtractionMaxNumberOfPages&gt;0&lt;/PdfTextExtractionMaxNumberOfPages&gt;
+  &lt;/CaptureProcessSettings&gt;
+  &lt;RetentionPolicySettings&gt;
+    &lt;KeepForever&gt;true&lt;/KeepForever&gt;
+    &lt;RetentionPolicyDuration&gt;
+      &lt;Years&gt;1&lt;/Years&gt;
+      &lt;Months&gt;0&lt;/Months&gt;
+      &lt;Days&gt;0&lt;/Days&gt;
+      &lt;Hours&gt;0&lt;/Hours&gt;
+      &lt;Minutes&gt;0&lt;/Minutes&gt;
+    &lt;/RetentionPolicyDuration&gt;
+  &lt;/RetentionPolicySettings&gt;
+  &lt;MaximumLoopCount&gt;0&lt;/MaximumLoopCount&gt;
+  &lt;ShowSpecificOutputVariables&gt;false&lt;/ShowSpecificOutputVariables&gt;
+  &lt;VariableDisplayPropertiesCollection&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;BTWHOOGDEC&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;BTWHOOGDEC&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinValue&gt;-900719925474&lt;/MinValue&gt;
+      &lt;MaxValue&gt;900719925474&lt;/MaxValue&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;10&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;BTWHOOGDEC&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;BTWHOOGSTR&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;BTWHOOGSTR&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;10000&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;BTWHOOGSTR&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;BTWLAAGDEC&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;BTWLAAGDEC&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinValue&gt;-900719925474&lt;/MinValue&gt;
+      &lt;MaxValue&gt;900719925474&lt;/MaxValue&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;10&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;BTWLAAGDEC&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;BTWLAAGSTR&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;BTWLAAGSTR&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;10000&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;BTWLAAGSTR&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;ERRORMESSAGE&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;ErrorMessage&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;10000&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;ErrorMessage&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;GBEDRAG&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;GBEDRAG&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinValue&gt;-900719925474&lt;/MinValue&gt;
+      &lt;MaxValue&gt;900719925474&lt;/MaxValue&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;10&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;GBEDRAG&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;SUBTOTAALDEC&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;SUBTOTAALDEC&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinValue&gt;-900719925474&lt;/MinValue&gt;
+      &lt;MaxValue&gt;900719925474&lt;/MaxValue&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;10&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;SUBTOTAALDEC&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;SUBTOTAALSTR&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;SUBTOTAALSTR&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;10000&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;SUBTOTAALSTR&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;TOTAALDEC&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;TOTAALDEC&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinValue&gt;-900719925474&lt;/MinValue&gt;
+      &lt;MaxValue&gt;900719925474&lt;/MaxValue&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;10&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;TOTAALDEC&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;TOTAALSTR&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;TOTAALSTR&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;10000&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;TOTAALSTR&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+    &lt;VariableDisplayProperties&gt;
+      &lt;VariableIdentity&gt;
+        &lt;Id&gt;VALID&lt;/Id&gt;
+        &lt;Version&gt;0&lt;/Version&gt;
+        &lt;OwnerId /&gt;
+        &lt;DisplayName&gt;Valid&lt;/DisplayName&gt;
+        &lt;Name /&gt;
+      &lt;/VariableIdentity&gt;
+      &lt;StringVariableDisplayProperties&gt;
+        &lt;VariableControlType&gt;Singleline&lt;/VariableControlType&gt;
+        &lt;MaxNumberOfCharacters&gt;0&lt;/MaxNumberOfCharacters&gt;
+        &lt;LookupIdentity /&gt;
+        &lt;StaticData /&gt;
+        &lt;Mandatory&gt;false&lt;/Mandatory&gt;
+      &lt;/StringVariableDisplayProperties&gt;
+      &lt;MinDate xsi:nil="true" /&gt;
+      &lt;MaxDate xsi:nil="true" /&gt;
+      &lt;DecimalPrecision&gt;0&lt;/DecimalPrecision&gt;
+      &lt;LabelText&gt;Valid&lt;/LabelText&gt;
+      &lt;ShowTime&gt;false&lt;/ShowTime&gt;
+    &lt;/VariableDisplayProperties&gt;
+  &lt;/VariableDisplayPropertiesCollection&gt;
+  &lt;DataObjectVariableFieldMappingCollection /&gt;
+&lt;/BusinessProcessSettings&gt;</settingsxml><associateddotnetreferences /><processnotes /><cnjformidentity><id /><name /></cnjformidentity><hasdocumentcontainer>0</hasdocumentcontainer><hasdocumentset>0</hasdocumentset><comments></comments></procdata><entitylist></entitylist><variableslist><variable><varname>BTWHOOGDEC</varname><vartype>14</vartype><varvalue>0</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>BTWHOOGDEC</vardisplayname><variablemembers /></variable><variable><varname>BTWHOOGSTR</varname><vartype>8</vartype><varvalue xml:space="preserve"></varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>BTWHOOGSTR</vardisplayname><variablemembers /></variable><variable><varname>BTWLAAGDEC</varname><vartype>14</vartype><varvalue>0</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>BTWLAAGDEC</vardisplayname><variablemembers /></variable><variable><varname>BTWLAAGSTR</varname><vartype>8</vartype><varvalue xml:space="preserve"></varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>BTWLAAGSTR</vardisplayname><variablemembers /></variable><variable><varname>ERRORMESSAGE</varname><vartype>8</vartype><varvalue xml:space="preserve"></varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>ErrorMessage</vardisplayname><variablemembers /></variable><variable><varname>GBEDRAG</varname><vartype>14</vartype><varvalue>0</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>GBEDRAG</vardisplayname><variablemembers /></variable><variable><varname>SUBTOTAALDEC</varname><vartype>14</vartype><varvalue>0</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>SUBTOTAALDEC</vardisplayname><variablemembers /></variable><variable><varname>SUBTOTAALSTR</varname><vartype>8</vartype><varvalue xml:space="preserve"></varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>SUBTOTAALSTR</vardisplayname><variablemembers /></variable><variable><varname>TOTAALDEC</varname><vartype>14</vartype><varvalue>0</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>TOTAALDEC</vardisplayname><variablemembers /></variable><variable><varname>TOTAALSTR</varname><vartype>8</vartype><varvalue xml:space="preserve"></varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>TOTAALSTR</vardisplayname><variablemembers /></variable><variable><varname>VALID</varname><vartype>11</vartype><varvalue>1</varvalue><dynamic>0</dynamic><used_in_skin>0</used_in_skin><entityid>4FEE4E069417475DAC5D2C2E5C95CA49</entityid><entityname>Default Data Grouping</entityname><vardisplayname>Valid</vardisplayname><variablemembers /></variable></variableslist><roleslist /><processeventlist /><nodelist><node><nodetype>6</nodetype><nodedata><processid>D2910D14BC2641DD858FA150FE7A3626</processid><version>35.000000</version><nodeid>4</nodeid><isstartnode>0</isstartnode><nodetype>6</nodetype><designtimetype>0</designtimetype><activationprobability>100</activationprobability><embeddedname></embeddedname><state /><statescope>0</statescope><activitymilestone /><activitymilestonescope>0</activitymilestonescope><activitypendmilestone></activitypendmilestone><activitypendmilestonescope>0</activitypendmilestonescope><activitydonemilestone></activitydonemilestone><activitydonemilestonescope>0</activitydonemilestonescope><nodependevent /><nodependeventscope>0</nodependeventscope><nodedoneevent /><nodedoneeventscope>0</nodedoneeventscope><titleposno>5</titleposno><embeddedproccount>0</embeddedproccount><iscustomnode>0</iscustomnode><designtimesettings>&lt;designtimesettings&gt;&lt;xposition&gt;579&lt;/xposition&gt;&lt;yposition&gt;133&lt;/yposition&gt;&lt;width&gt;30&lt;/width&gt;&lt;height&gt;30&lt;/height&gt;&lt;inheritcolorfromsystem&gt;False&lt;/inheritcolorfromsystem&gt;&lt;colour&gt;#FF9B0000&lt;/colour&gt;&lt;eventtype&gt;Default&lt;/eventtype&gt;&lt;name&gt;End&lt;/name&gt;&lt;textposition&gt;CentreRight&lt;/textposition&gt;&lt;conditionpathdescription /&gt;&lt;lane&gt;&lt;name&gt;Lane1&lt;/name&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid&gt;F2658174A1504212AA9BCD0320B967B5&lt;/poolid&gt;&lt;height&gt;719.1&lt;/height&gt;&lt;/lane&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;/designtimesettings&gt;</designtimesettings><attachments></attachments><annotations></annotations><dependants /><destinationnodes /><originnodes><originnode><nodeid>7</nodeid><nodetype>6</nodetype></originnode></originnodes><branchingrules /><runtimesettings>0</runtimesettings></nodedata></node><node><nodetype>1</nodetype><nodedata><processid>D2910D14BC2641DD858FA150FE7A3626</processid><version>35.000000</version><nodeid>7</nodeid><isstartnode>0</isstartnode><nodetype>1</nodetype><designtimetype>13</designtimetype><activationprobability>100</activationprobability><embeddedname></embeddedname><state /><statescope>0</statescope><activitymilestone></activitymilestone><activitymilestonescope>0</activitymilestonescope><activitypendmilestone></activitypendmilestone><activitypendmilestonescope>0</activitypendmilestonescope><activitydonemilestone></activitydonemilestone><activitydonemilestonescope>0</activitydonemilestonescope><nodependevent /><nodependeventscope>0</nodependeventscope><nodedoneevent /><nodedoneeventscope>0</nodedoneeventscope><titleposno>5</titleposno><embeddedproccount>0</embeddedproccount><iscustomnode>0</iscustomnode><designtimesettings>&lt;designtimesettings&gt;&lt;xposition&gt;433&lt;/xposition&gt;&lt;yposition&gt;118&lt;/yposition&gt;&lt;width&gt;90&lt;/width&gt;&lt;height&gt;60&lt;/height&gt;&lt;inheritcolorfromsystem&gt;True&lt;/inheritcolorfromsystem&gt;&lt;colour&gt;#FFE3EDF3&lt;/colour&gt;&lt;textposition&gt;Centre&lt;/textposition&gt;&lt;conditionpathdescription /&gt;&lt;lane&gt;&lt;name&gt;Lane1&lt;/name&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid&gt;F2658174A1504212AA9BCD0320B967B5&lt;/poolid&gt;&lt;height&gt;719.1&lt;/height&gt;&lt;/lane&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;resourcenotes /&gt;&lt;/designtimesettings&gt;</designtimesettings><attachments></attachments><annotations></annotations><dependants /><destinationnodes><destinationnode><nodeid>4</nodeid><nodetype>6</nodetype></destinationnode></destinationnodes><originnodes><originnode><nodeid>8</nodeid><nodetype>1</nodetype></originnode><originnode><nodeid>9</nodeid><nodetype>1</nodetype></originnode></originnodes><branchingrules /><runtimesettings>0</runtimesettings></nodedata><activitydata><inputvariables><inputvariable><varid>BTWHOOGDEC</varid></inputvariable><inputvariable><varid>BTWLAAGDEC</varid></inputvariable><inputvariable><varid>GBEDRAG</varid></inputvariable><inputvariable><varid>SUBTOTAALDEC</varid></inputvariable><inputvariable><varid>TOTAALDEC</varid></inputvariable></inputvariables><outputvariables><outputvariable><varid>ERRORMESSAGE</varid></outputvariable><outputvariable><varid>VALID</varid></outputvariable></outputvariables><requiredresources /><usableresources /><dynamicresourcesdata><overwriteusableresources>0</overwriteusableresources><dynamicresourcesvariables /></dynamicresourcesdata><targettime>0</targettime><delaytime>0</delaytime><pendingdelayduration>0</pendingdelayduration><expectedcost>0.000000</expectedcost><securitylevel>10</securitylevel><skilllevel>10</skilllevel><useprevioususer>0</useprevioususer><tasktype>11</tasktype><priority>1</priority><automatic>1</automatic><trackstorejvh>0</trackstorejvh><usesameasprevious>0</usesameasprevious><taskid>0</taskid><usesameasprevioustype>0</usesameasprevioustype><fixedcost>0.000000</fixedcost><taskname>Round</taskname><resourceid /><createdby>E1BFE529A6044AAA9387359E76A8423B</createdby><purpose></purpose><description></description><script>using System; 
+using Agility.Server.Scripting.ScriptAssembly;
+ 
+namespace MyNamespace
+{
+    
+ public class Class1
+ {
+  public Class1() 
+  {
+  }
+ 
+  [StartMethodAttribute()] 
+  public void Method1(ScriptParameters sp) 
+  {
+	  		//
+			// TODO: Add start method code here
+			//
+			// to check or Variable is null
+
+			Func&amp;lt;Object, string&amp;gt; GetInputVariableValue = x =&amp;gt; x == null ? String.Empty : x.ToString();
+	  
+		//input variable KTA
+            string BTWHoogCur = GetInputVariableValue(sp.InputVariables[&amp;quot;BTWHOOGDEC&amp;quot;]);
+            string BTWLaagCur = GetInputVariableValue(sp.InputVariables[&amp;quot;BTWLAAGDEC&amp;quot;]);
+            string SubtotaalCur = GetInputVariableValue(sp.InputVariables[&amp;quot;SUBTOTAALDEC&amp;quot;]);
+            string TotaalCur = GetInputVariableValue(sp.InputVariables[&amp;quot;TOTAALDEC&amp;quot;]);
+			string GBedrag = GetInputVariableValue(sp.InputVariables[&amp;quot;GBEDRAG&amp;quot;]);
+
+            decimal BTWHoogCur_dbl;
+            decimal BTWLaagCur_dbl;
+            decimal SubtotaalCur_dbl;
+            decimal TotaalCur_dbl;
+			decimal Gbedrag_dbl;
+
+//BTW Hoog
+            if (decimal.TryParse(BTWHoogCur, out BTWHoogCur_dbl))
+            {
+                BTWHoogCur = BTWHoogCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                BTWHoogCur_dbl = 0;
+                BTWHoogCur = BTWHoogCur_dbl.ToString(&amp;quot;####0.00&amp;quot;); 
+            }
+
+//BTW Laag
+            if (decimal.TryParse(BTWLaagCur, out BTWLaagCur_dbl))
+            {
+                BTWLaagCur = BTWLaagCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                BTWLaagCur_dbl = 0;
+                BTWLaagCur = BTWLaagCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Totaal
+            if (decimal.TryParse(TotaalCur, out TotaalCur_dbl))
+            {
+                TotaalCur = TotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                TotaalCur_dbl = 0;
+                TotaalCur = TotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Subtotaal
+            if (decimal.TryParse(SubtotaalCur, out SubtotaalCur_dbl))
+            {
+                SubtotaalCur = SubtotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                SubtotaalCur_dbl = 0;
+                SubtotaalCur = SubtotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Gbedrag
+            if (decimal.TryParse(GBedrag, out Gbedrag_dbl))
+            {
+                GBedrag = Gbedrag_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                Gbedrag_dbl = 0;
+                GBedrag = Gbedrag_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+			
+               //Debug waardes
+			 /* 
+			sp.OutputVariables[&amp;quot;BTWHOOGSTR&amp;quot;] 	= BTWHoogCur;
+            sp.OutputVariables[&amp;quot;BTWLAAGSTR&amp;quot;] 	= BTWLaagCur;
+            sp.OutputVariables[&amp;quot;SUBTOTAALSTR&amp;quot;] = SubtotaalCur;
+            sp.OutputVariables[&amp;quot;TOTAALSTR&amp;quot;] = TotaalCur;
+			sp.OutputVariables[&amp;quot;GBEDRAG&amp;quot;] = GBedrag;
+			*/
+
+		if (Math.Round( TotaalCur_dbl, 2) != Math.Round(BTWHoogCur_dbl + BTWLaagCur_dbl + SubtotaalCur_dbl,2) )
+		{
+                sp.OutputVariables[&amp;quot;ERRORMESSAGE&amp;quot;] = &amp;quot;Calculatie subtotaal + btw laag + btw hoog komt niet overeen met totaal bedrag&amp;quot;;  
+				sp.OutputVariables[&amp;quot;VALID&amp;quot;] = false; 
+
+            }
+            else
+            {
+                  
+				sp.OutputVariables[&amp;quot;VALID&amp;quot;] = true;
+            }	
+
+	
+ }
+}
+}</script><processid /><creationdate>2024-11-28T17:19:41.03627</creationdate><transactionalinfo /><createnewjobinfo><cnjprocessid></cnjprocessid><initparams></initparams><outputs></outputs><varid></varid><jobtype>0</jobtype><reftype>0</reftype></createnewjobinfo><scriptprogid>CSHARP</scriptprogid><preloadscript>1</preloadscript><assocfile></assocfile><designinfo></designinfo><sleepinfo>0</sleepinfo><jobowneridinfo></jobowneridinfo><jobownervaridinfo></jobownervaridinfo><negativelagtime>0</negativelagtime><dynduedate>0</dynduedate><dynduedatevar /><dyntargetdurationvar /><sendemail>0</sendemail><emailto>0</emailto><subjecttext /><subjectvar /><contenttext /><contentvar /><urltext /><urlvar /><appendassocfile>0</appendassocfile><dotnet /><webservice /><activityinfo><useadvworkflowrules>0</useadvworkflowrules><seqactivityassignment>0</seqactivityassignment><concuractivityaccess>0</concuractivityaccess><noofusableresourcesreq>0</noofusableresourcesreq><exitcondition></exitcondition><expandgroups>0</expandgroups><noofusableresourcesreqvarid /></activityinfo><categoryid>201F370CA5164F76ADDD8EEEFF666AF7</categoryid><poolid>0</poolid><activityruntimesettings>0</activityruntimesettings><activityragamberthreshold>0</activityragamberthreshold><activityragredthreshold>0</activityragredthreshold><activityragblackthreshold>0</activityragblackthreshold><activityragpurplethreshold>0</activityragpurplethreshold><form /><xmldata /><dataaccess /><getresourceinfo /><jobvariableinfo /><baminfo /><bpescalations /><preconditionslist /><preconditiontext></preconditiontext><startmethod>Method1</startmethod><classnamespace>MyNamespace.Class1</classnamespace><resetlimit>-1</resetlimit><activitytimedoutaction>0</activitytimedoutaction><suspendreasontext></suspendreasontext><suspendreasonvarid></suspendreasonvarid></activitydata></node><node><nodetype>2</nodetype><nodedata><processid>D2910D14BC2641DD858FA150FE7A3626</processid><version>35.000000</version><nodeid>8</nodeid><isstartnode>1</isstartnode><nodetype>2</nodetype><designtimetype>0</designtimetype><activationprobability>100</activationprobability><embeddedname></embeddedname><state /><statescope>0</statescope><activitymilestone /><activitymilestonescope>0</activitymilestonescope><activitypendmilestone></activitypendmilestone><activitypendmilestonescope>0</activitypendmilestonescope><activitydonemilestone></activitydonemilestone><activitydonemilestonescope>0</activitydonemilestonescope><nodependevent /><nodependeventscope>0</nodependeventscope><nodedoneevent /><nodedoneeventscope>0</nodedoneeventscope><titleposno>5</titleposno><embeddedproccount>0</embeddedproccount><iscustomnode>0</iscustomnode><designtimesettings>&lt;designtimesettings&gt;&lt;xposition&gt;185&lt;/xposition&gt;&lt;yposition&gt;65&lt;/yposition&gt;&lt;width&gt;60&lt;/width&gt;&lt;height&gt;60&lt;/height&gt;&lt;inheritcolorfromsystem&gt;True&lt;/inheritcolorfromsystem&gt;&lt;colour&gt;#FFD5DC43&lt;/colour&gt;&lt;textposition&gt;Top&lt;/textposition&gt;&lt;conditionpathdescription /&gt;&lt;lane&gt;&lt;name /&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid /&gt;&lt;height&gt;0&lt;/height&gt;&lt;/lane&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;/designtimesettings&gt;</designtimesettings><attachments></attachments><annotations></annotations><dependants /><destinationnodes><destinationnode><nodeid>7</nodeid><nodetype>1</nodetype></destinationnode><destinationnode><nodeid>9</nodeid><nodetype>1</nodetype></destinationnode></destinationnodes><originnodes /><branchingrules /><runtimesettings>0</runtimesettings></nodedata><decisiondata><decisionname>Only one btw</decisionname><description></description><decisiontext>&lt;Rule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;RuleInputs /&gt;&lt;Script&gt;true&lt;/Script&gt;&lt;RuleType&gt;Decision&lt;/RuleType&gt;&lt;/Rule&gt;</decisiontext><trueid>9</trueid><trackstorejvh>0</trackstorejvh><casesensetive>1</casesensetive><inputvariables /></decisiondata></node><node><nodetype>1</nodetype><nodedata><processid>D2910D14BC2641DD858FA150FE7A3626</processid><version>35.000000</version><nodeid>9</nodeid><isstartnode>0</isstartnode><nodetype>1</nodetype><designtimetype>33</designtimetype><activationprobability>100</activationprobability><embeddedname></embeddedname><state /><statescope>0</statescope><activitymilestone></activitymilestone><activitymilestonescope>0</activitymilestonescope><activitypendmilestone></activitypendmilestone><activitypendmilestonescope>0</activitypendmilestonescope><activitydonemilestone></activitydonemilestone><activitydonemilestonescope>0</activitydonemilestonescope><nodependevent /><nodependeventscope>0</nodependeventscope><nodedoneevent /><nodedoneeventscope>0</nodedoneeventscope><titleposno>5</titleposno><embeddedproccount>0</embeddedproccount><iscustomnode>0</iscustomnode><designtimesettings>&lt;designtimesettings&gt;&lt;xposition&gt;335&lt;/xposition&gt;&lt;yposition&gt;-35&lt;/yposition&gt;&lt;width&gt;90&lt;/width&gt;&lt;height&gt;60&lt;/height&gt;&lt;inheritcolorfromsystem&gt;True&lt;/inheritcolorfromsystem&gt;&lt;colour&gt;#FFE3EDF3&lt;/colour&gt;&lt;textposition&gt;Top&lt;/textposition&gt;&lt;conditionpathdescription /&gt;&lt;lane&gt;&lt;name /&gt;&lt;index&gt;0&lt;/index&gt;&lt;poolid /&gt;&lt;height&gt;0&lt;/height&gt;&lt;/lane&gt;&lt;annotations /&gt;&lt;attachments /&gt;&lt;resourcenotes /&gt;&lt;/designtimesettings&gt;</designtimesettings><attachments></attachments><annotations></annotations><dependants /><destinationnodes><destinationnode><nodeid>7</nodeid><nodetype>1</nodetype></destinationnode></destinationnodes><originnodes><originnode><nodeid>8</nodeid><nodetype>1</nodetype></originnode></originnodes><branchingrules /><runtimesettings>0</runtimesettings></nodedata><activitydata><inputvariables><inputvariable><varid>SPP_SYSTEM_SESSION_ID</varid></inputvariable><inputvariable><varid>BTWLAAGDEC</varid></inputvariable></inputvariables><outputvariables /><requiredresources /><usableresources /><dynamicresourcesdata><overwriteusableresources>0</overwriteusableresources><dynamicresourcesvariables /></dynamicresourcesdata><targettime>0</targettime><delaytime>0</delaytime><pendingdelayduration>0</pendingdelayduration><expectedcost>0.000000</expectedcost><securitylevel>10</securitylevel><skilllevel>10</skilllevel><useprevioususer>0</useprevioususer><tasktype>7</tasktype><priority>1</priority><automatic>1</automatic><trackstorejvh>0</trackstorejvh><usesameasprevious>0</usesameasprevious><taskid>0</taskid><usesameasprevioustype>0</usesameasprevioustype><fixedcost>0.000000</fixedcost><taskname>Clear vatLow</taskname><resourceid /><createdby>E1BFE529A6044AAA9387359E76A8423B</createdby><purpose></purpose><description></description><script>using System; 
+using Agility.Server.Scripting.ScriptAssembly;
+ 
+namespace MyNamespace
+{
+    
+ public class Class1
+ {
+  public Class1() 
+  {
+  }
+ 
+  [StartMethodAttribute()] 
+  public void Method1(ScriptParameters sp) 
+  {
+	  		//
+			// TODO: Add start method code here
+			//
+			// to check or Variable is null
+
+			Func&amp;lt;Object, string&amp;gt; GetInputVariableValue = x =&amp;gt; x == null ? String.Empty : x.ToString();
+	  
+		//input variable KTA
+            string BTWHoogCur = GetInputVariableValue(sp.InputVariables[&amp;quot;BTWHOOGDEC&amp;quot;]);
+            string BTWLaagCur = GetInputVariableValue(sp.InputVariables[&amp;quot;BTWLAAGDEC&amp;quot;]);
+            string SubtotaalCur = GetInputVariableValue(sp.InputVariables[&amp;quot;SUBTOTAALDEC&amp;quot;]);
+            string TotaalCur = GetInputVariableValue(sp.InputVariables[&amp;quot;TOTAALDEC&amp;quot;]);
+			string GBedrag = GetInputVariableValue(sp.InputVariables[&amp;quot;GBEDRAG&amp;quot;]);
+
+            decimal BTWHoogCur_dbl;
+            decimal BTWLaagCur_dbl;
+            decimal SubtotaalCur_dbl;
+            decimal TotaalCur_dbl;
+			decimal Gbedrag_dbl;
+
+//BTW Hoog
+            if (decimal.TryParse(BTWHoogCur, out BTWHoogCur_dbl))
+            {
+                BTWHoogCur = BTWHoogCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                BTWHoogCur_dbl = 0;
+                BTWHoogCur = BTWHoogCur_dbl.ToString(&amp;quot;####0.00&amp;quot;); 
+            }
+
+//BTW Laag
+            if (decimal.TryParse(BTWLaagCur, out BTWLaagCur_dbl))
+            {
+                BTWLaagCur = BTWLaagCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                BTWLaagCur_dbl = 0;
+                BTWLaagCur = BTWLaagCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Totaal
+            if (decimal.TryParse(TotaalCur, out TotaalCur_dbl))
+            {
+                TotaalCur = TotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                TotaalCur_dbl = 0;
+                TotaalCur = TotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Subtotaal
+            if (decimal.TryParse(SubtotaalCur, out SubtotaalCur_dbl))
+            {
+                SubtotaalCur = SubtotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                SubtotaalCur_dbl = 0;
+                SubtotaalCur = SubtotaalCur_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+//Gbedrag
+            if (decimal.TryParse(GBedrag, out Gbedrag_dbl))
+            {
+                GBedrag = Gbedrag_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+            else
+            {
+                Gbedrag_dbl = 0;
+                GBedrag = Gbedrag_dbl.ToString(&amp;quot;####0.00&amp;quot;);
+            }
+
+			
+               //Debug waardes
+			 /* 
+			sp.OutputVariables[&amp;quot;BTWHOOGSTR&amp;quot;] 	= BTWHoogCur;
+            sp.OutputVariables[&amp;quot;BTWLAAGSTR&amp;quot;] 	= BTWLaagCur;
+            sp.OutputVariables[&amp;quot;SUBTOTAALSTR&amp;quot;] = SubtotaalCur;
+            sp.OutputVariables[&amp;quot;TOTAALSTR&amp;quot;] = TotaalCur;
+			sp.OutputVariables[&amp;quot;GBEDRAG&amp;quot;] = GBedrag;
+			*/
+
+		if (Math.Round( TotaalCur_dbl, 2) != Math.Round(BTWHoogCur_dbl + BTWLaagCur_dbl + SubtotaalCur_dbl,2) )
+		{
+                sp.OutputVariables[&amp;quot;ERRORMESSAGE&amp;quot;] = &amp;quot;Calculatie subtotaal + btw laag + btw hoog komt niet overeen met totaal bedrag&amp;quot;;  
+				sp.OutputVariables[&amp;quot;VALID&amp;quot;] = false; 
+
+            }
+            else
+            {
+                  
+				sp.OutputVariables[&amp;quot;VALID&amp;quot;] = true;
+            }	
+
+	
+ }
+}
+}</script><processid /><creationdate>2024-11-28T17:19:41.03627</creationdate><transactionalinfo /><createnewjobinfo><cnjprocessid></cnjprocessid><initparams></initparams><outputs></outputs><varid></varid><jobtype>0</jobtype><reftype>0</reftype></createnewjobinfo><scriptprogid>CSHARP</scriptprogid><preloadscript>1</preloadscript><assocfile></assocfile><designinfo></designinfo><sleepinfo>0</sleepinfo><jobowneridinfo></jobowneridinfo><jobownervaridinfo></jobownervaridinfo><negativelagtime>0</negativelagtime><dynduedate>0</dynduedate><dynduedatevar /><dyntargetdurationvar /><sendemail>0</sendemail><emailto>0</emailto><subjecttext /><subjectvar /><contenttext /><contentvar /><urltext /><urlvar /><appendassocfile>0</appendassocfile><dotnet><dotnetactivity><assemblyid>TotalAgility.Sdk.dll</assemblyid><assemblyloadtype>0</assemblyloadtype><assemblyname>TotalAgility.Sdk.dll</assemblyname><classname>TotalAgility.Sdk.ServerService</classname><methodname>ExecuteCalculationNode</methodname><duplicatemethodno>1</duplicatemethodno><noofparams>0</noofparams><paramsmappingxmltag>&lt;parameters&gt;&lt;param direction="in" source="SPP_SYSTEM_SESSION_ID" field="SPP_SYSTEM_SESSION_ID" datatype="System.String" value="SPP_SYSTEM_SESSION_ID" name="sessionId" selection="false" documentmappingtype="0" documentfiletype="0" /&gt;&lt;param direction="in" source="" field="" datatype="Agility.Sdk.Model.Calculations.CalculationNode" value="" name="CalculationNode" selection="false" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="ProcessActivityIdentity" source="" type="Agility.Sdk.Model.Activities.ProcessActivityIdentity" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="ProcessIdentity" source="" type="Agility.Sdk.Model.Processes.ProcessIdentity" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Id" source="inline" type="System.String" value="D2910D14BC2641DD858FA150FE7A3626" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Name" source="inline" type="System.String" value="Docspro BR Bedrag Controle" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Version" source="inline" type="System.Double" value="35" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;member name="NodeId" source="inline" type="System.Int16" value="9" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="ActivityName" source="inline" type="System.String" value="Clear vatLow" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;member name="InputVariables" source="" type="Agility.Sdk.Model.Variables.InputVariable[]" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="" source="" type="Agility.Sdk.Model.Variables.InputVariable" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Id" source="inline" type="System.String" value="SPP_SYSTEM_SESSION_ID" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Value" source="SPP_SYSTEM_SESSION_ID" type="System.Object" value="SPP_SYSTEM_SESSION_ID" field="SPP_SYSTEM_SESSION_ID" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;member name="" source="" type="Agility.Sdk.Model.Variables.InputVariable" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Id" source="inline" type="System.String" value="BTWLAAGDEC" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Value" source="BTWLAAGDEC" type="System.Object" value="BTWLAAGDEC" field="BTWLAAGDEC" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;/member&gt;&lt;member name="CalculationScriptCollection" source="" type="Agility.Sdk.Model.Calculations.CalculationScript[]" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="" source="" type="Agility.Sdk.Model.Calculations.CalculationScript" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Script" source="inline" type="System.String" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;lt;Rule xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;lt;RuleInputs /&amp;gt;&amp;lt;Script&amp;gt;0.00&amp;lt;/Script&amp;gt;&amp;lt;RuleType&amp;gt;Expression&amp;lt;/RuleType&amp;gt;&amp;lt;/Rule&amp;gt;" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Description" source="inline" type="System.String" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="TargetVariable" source="" type="Agility.Sdk.Model.Variables.OutputVariable" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Id" source="inline" type="System.String" value="BTWLAAGDEC" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Value" source="BTWLAAGDEC" type="System.Object" value="BTWLAAGDEC" field="BTWLAAGDEC" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;member name="UseBusinessCalendar" source="inline" type="System.Boolean" value="False" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;/member&gt;&lt;/param&gt;&lt;param direction="ret" source="" field="" datatype="Agility.Sdk.Model.Variables.OutputVariable[]" value="" name="Return Parameter" selection="false" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="" source="" type="Agility.Sdk.Model.Variables.OutputVariable" value="" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0"&gt;&lt;member name="Id" source="inline" type="System.String" value="BTWLAAGDEC" field="" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;member name="Value" source="BTWLAAGDEC" type="System.Object" value="BTWLAAGDEC" field="BTWLAAGDEC" selection="false" index="0" documentmappingtype="0" documentfiletype="0" /&gt;&lt;/member&gt;&lt;/param&gt;&lt;/parameters&gt;</paramsmappingxmltag></dotnetactivity></dotnet><webservice /><activityinfo><useadvworkflowrules>0</useadvworkflowrules><seqactivityassignment>0</seqactivityassignment><concuractivityaccess>0</concuractivityaccess><noofusableresourcesreq>0</noofusableresourcesreq><exitcondition></exitcondition><expandgroups>0</expandgroups><noofusableresourcesreqvarid /></activityinfo><categoryid>201F370CA5164F76ADDD8EEEFF666AF7</categoryid><poolid>0</poolid><activityruntimesettings>0</activityruntimesettings><activityragamberthreshold>0</activityragamberthreshold><activityragredthreshold>0</activityragredthreshold><activityragblackthreshold>0</activityragblackthreshold><activityragpurplethreshold>0</activityragpurplethreshold><form /><xmldata /><dataaccess /><getresourceinfo /><jobvariableinfo /><baminfo /><bpescalations /><preconditionslist /><preconditiontext></preconditiontext><startmethod>Method1</startmethod><classnamespace>MyNamespace.Class1</classnamespace><resetlimit>-1</resetlimit><activitytimedoutaction>0</activitytimedoutaction><suspendreasontext></suspendreasontext><suspendreasonvarid></suspendreasonvarid></activitydata></node></nodelist><documentprocessrulecollection /></processmap></processmaps>
